@@ -1,0 +1,32 @@
+{
+  "group": {
+    "file": "pai_group_tag_table.tar.gz",
+    "bytes": 55064781,
+    "archive_sha256": "722fef30b7fb7aa50dabd79155614b5423a9d65cf45a9b26c590d57725423a14",
+    "member": "pai_group_tag_table.csv",
+    "uncompressed_bytes": 115521549,
+    "member_sha256": "d23fcb56d88b2976fda4a62708d77b2a8c98635c4b443f100ed5553d4cd07fbe",
+    "archive_hash_match": true,
+    "member_hash_match": true
+  },
+  "task": {
+    "file": "pai_task_table.tar.gz",
+    "bytes": 35514117,
+    "archive_sha256": "cd1d6dc3215d2a8607ccf6b6dd952b5db776df86926c73259fea7c1499ac40e5",
+    "member": "pai_task_table.csv",
+    "uncompressed_bytes": 113398956,
+    "member_sha256": "6954802b457305f8a9e480ef97c40060baee59649fd3adc62c5a1e048aa058de",
+    "archive_hash_match": true,
+    "member_hash_match": true
+  },
+  "job": {
+    "file": "pai_job_table.tar.gz",
+    "bytes": 62065432,
+    "archive_sha256": "5aad7f7caac501136d14ed6a48e40546f825d7b0617a3a4f337e2348fe0a6cb0",
+    "member": "pai_job_table.csv",
+    "uncompressed_bytes": 133288147,
+    "member_sha256": "379ecb3becaba347f44a53bf7eb53e54b185221b2a0338a3f828828d269ba96c",
+    "archive_hash_match": true,
+    "member_hash_match": true
+  }
+}

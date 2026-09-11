@@ -1,0 +1,10 @@
+{
+  "rho_TA_solution_support": 0.5107362661540621,
+  "rho_M_solution_support": 2.1826396942801725,
+  "rho_input_coefficient_side": 3.4747546629820882,
+  "rho_input_rhs_side": 2.0954925900630714,
+  "rho_input_domain": 2.0954925900630714,
+  "rho_TA_valid_positive_model": 0.5107362661540621,
+  "rho_M_valid_positive_model": 2.0954925900630714,
+  "primary_rho": 1.0
+}

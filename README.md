@@ -1,10 +1,16 @@
-# Cross-Arithmetic Reliability of Fully Fuzzy Linear Systems
+# Cross-Arithmetic Reliability Gate for Fully Fuzzy Linear Systems
 
 Reproducibility repository for the conference paper:
 
-**Cross-Arithmetic Reliability of Fully Fuzzy Linear Systems in Photovoltaic and Production Computing Applications**
+**A Cross-Arithmetic Reliability Gate for Fully Fuzzy Linear Systems: Photovoltaic and Production-Computing Applications**
 
-This repository contains deterministic analysis scripts, derived reproducibility data, and provenance/verification records supporting the reported cross-arithmetic FFLS results.
+This repository contains deterministic analysis scripts, derived reproducibility data, and provenance/verification records supporting the reported FFLS results.
+
+## Core idea
+
+The paper introduces the **Cross-Arithmetic Reliability Gate (CARG)** as a pre-use reliability protocol for fully fuzzy linear systems. CARG asks whether an FFLS output remains admissible and identical across a predeclared family of fuzzy-arithmetic conventions before that output is carried into engineering, calibration, planning, or decision-support use.
+
+Its mathematical decision object is the cross-arithmetic common core. A shared core supports family-relative stability; disjoint admissible solutions indicate identity fragility; loss of admissibility indicates admissibility fragility. The framework is a reporting/use gate, not a new FFLS solver.
 
 ## Scope
 

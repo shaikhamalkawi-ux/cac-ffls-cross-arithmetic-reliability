@@ -1,0 +1,58 @@
+{
+  "total_combinations": 35,
+  "patterns": {
+    "admissibility fragility (M only)": 32,
+    "double inadmissibility": 2,
+    "identity fragility (both admissible, distinct)": 1
+  },
+  "common_core_nonempty_count": 0,
+  "at_least_one_admissible_count": 33,
+  "primary_pattern_count": 32,
+  "exceptions": [
+    {
+      "weekday": "Tuesday",
+      "n_weeks": 8,
+      "envelope": "Trim one extreme/side",
+      "k_M": 0,
+      "k_TA": 0,
+      "k_core": 0,
+      "pattern": "double inadmissibility",
+      "min_lower_M": 3349.6877913412773,
+      "min_lower_TA": -1930.3249793654677,
+      "min_y_M": 1043.4729229444367,
+      "min_z_M": -117.48083840641024,
+      "min_y_TA": 4090.3847088098782,
+      "min_z_TA": -274.23249245253646
+    },
+    {
+      "weekday": "Wednesday",
+      "n_weeks": 8,
+      "envelope": "Q25-Q75",
+      "k_M": 1,
+      "k_TA": 1,
+      "k_core": 0,
+      "pattern": "identity fragility (both admissible, distinct)",
+      "min_lower_M": 3667.8927363892467,
+      "min_lower_TA": 64.28455832037253,
+      "min_y_M": 606.8740059408559,
+      "min_z_M": 418.6326313519105,
+      "min_y_TA": 4150.779095308329,
+      "min_z_TA": 1639.2790082790655
+    },
+    {
+      "weekday": "Wednesday",
+      "n_weeks": 8,
+      "envelope": "Trim one extreme/side",
+      "k_M": 0,
+      "k_TA": 0,
+      "k_core": 0,
+      "pattern": "double inadmissibility",
+      "min_lower_M": 3679.2390569672784,
+      "min_lower_TA": -657.364514392505,
+      "min_y_M": 827.9466131210218,
+      "min_z_M": -397.683135002946,
+      "min_y_TA": 4803.4258525505065,
+      "min_z_TA": -1139.2637016046976
+    }
+  ]
+}

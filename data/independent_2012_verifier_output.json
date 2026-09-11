@@ -1,0 +1,40 @@
+{
+  "det_A": "189",
+  "x": [
+    "37",
+    "62",
+    "75"
+  ],
+  "y": [
+    "7",
+    "11/2",
+    "51/5"
+  ],
+  "z": [
+    "838/63",
+    "577/126",
+    "13154/945"
+  ],
+  "positive_support": true,
+  "alpha": "1/2",
+  "row1_EP_LHS_exact": [
+    "135059/80",
+    "164115401/75600"
+  ],
+  "row1_EP_LHS_decimal": [
+    1688.2375,
+    2170.8386375661375
+  ],
+  "row1_RHS_cut_exact": [
+    "33663/20",
+    "21651/10"
+  ],
+  "row1_RHS_cut_decimal": [
+    1683.15,
+    2165.1
+  ],
+  "same_cut": false,
+  "anchor_cardinality": 1,
+  "pairwise_anchor_EP_core_cardinality": 0,
+  "claim": "unique associated-system anchor is excluded from exact extension-principle equality"
+}

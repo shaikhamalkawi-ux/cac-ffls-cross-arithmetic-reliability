@@ -4,7 +4,7 @@ Reproducibility repository for the conference paper:
 
 **Cross-Arithmetic Reliability of Fully Fuzzy Linear Systems in Photovoltaic and Production Computing Applications**
 
-This repository contains the deterministic analysis scripts, locked derived outputs, provenance records, and manuscript source used to support the reported cross-arithmetic FFLS results.
+This repository contains deterministic analysis scripts, derived reproducibility data, and provenance/verification records supporting the reported cross-arithmetic FFLS results.
 
 ## Scope
 
@@ -12,12 +12,13 @@ The repository supports the paper's family-relative cross-arithmetic reliability
 
 ## Reproducibility contents
 
-- `code/` - deterministic PAI replay, sensitivity analysis, spread-scale verification, and independent-benchmark verification.
-- `data/` - locked derived outputs reported or summarized in the paper and supplementary material.
-- `provenance/` - source-lock and clean-run parity records.
-- `source/` - LaTeX manuscript source and bibliography.
+- `code/` - primary Alibaba PAI replay, crossed 5x7 sensitivity analysis, spread-scale verification, and independent-benchmark verification.
+- `data/` - the primary weekly balance output, full 35-case PAI sensitivity table and summary, weekday alignment results, spread-scale thresholds, full primary PAI replay results, and independent-benchmark output.
+- `provenance/` - official PAI source-file hash lock, clean-run parity record, and source/literature audit.
 
-The raw Alibaba PAI archives are not redistributed here. The replay script verifies the official archive and member SHA-256 values before processing. See `provenance/PAI_SOURCE_LOCK.json`.
+## Data availability boundary
+
+The GitHub repository contains **code and derived reproducibility data supporting the reported results**. Raw third-party source datasets are not redistributed here. The Alibaba PAI archives remain available from the official Alibaba Cluster Trace source, and the PVDAQ source remains available from NREL/OEDI. The replay code checks the official Alibaba archive and member SHA-256 values before processing.
 
 ## Primary PAI replay
 
@@ -25,7 +26,7 @@ The raw Alibaba PAI archives are not redistributed here. The replay script verif
 python code/run_pai_v3_gate.py pai_group_tag_table.tar.gz pai_task_table.tar.gz pai_job_table.tar.gz --out pai_v3_gate_output
 ```
 
-Python dependencies used by the numerical scripts include `numpy` and the Python standard library.
+The numerical scripts use Python, NumPy, and the Python standard library.
 
 ## Repository status
 
